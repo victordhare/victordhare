@@ -1,0 +1,224 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	font-family: monospace;
+	background-color:#4caf50 /*#f4f4f9*/;
+}
+
+#vdd{
+	background: url(babak.jpg);
+	width: 800px;
+	height: 280px;
+	margin-left: 188px;
+	margin-top: -150px;
+    
+	position: top, fixed;
+}
+
+h1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3cm;
+	color: #444444;
+	height: 100vh;
+}
+.fab-container{
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	z-index: 999;
+	cursor: pointer;
+}
+.fab-icon-holder{
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	background-color: #016fb9;
+	box-shadow: 8 6px 20px rgba(1,0,0,0.2);
+}
+.fab-icon-holder:hover{
+	opacity: 0.8;
+}
+.fab-icon-holder i {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	font-size: 25px;
+	color:white;
+}
+.fab{
+	width: 60px;
+	height:60px;
+	background-color: red;
+
+}
+.fab-options{
+	list-style-type: none;
+	margin: 0;
+	position: absolute;
+	bottom: 70px;
+	right: 0;
+	opacity: 0;
+	transition: all 0.3s ease;
+	transform: scale(0);
+	transform-origin: 85% bottom;
+}
+.fab:hover + .fab-options, .fab-options:hover{
+opacity: 1;
+transform: scale(1);
+}
+.fab-options li{
+	display: flex;
+	justify-content: flex-end;
+	padding: 5px;
+
+}
+.fab-label{
+	padding: 2px 5px;
+	align-self: center;
+	user-select: none;
+	white-space: nowrap;
+	border-radius: 3px;
+	font-size: 16px;
+	background-color: orange;
+	color: white;
+	box-shadow: 10 6px 20px rgba(0,0,0,0.2);
+	margin-right: 10px;
+}
+.fab-pan{
+	font-size:20px;
+	
+	color: black;
+	font-family: cursive;
+
+}
+#car{
+	display: none;
+	width: 100%;
+	
+
+}
+#car input{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px; 
+}
+
+#truck{
+	display: none;
+	width: 100%;
+
+}
+#truck input{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;  
+}
+#tax{
+	display: none;
+	width: 100%;
+}
+#tax input{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;  
+}
+#bikes{
+	display: none;
+	width: 100%;
+}
+#bikes input{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;  
+}
+#cycle{
+	display: none;
+	width: 100%;
+}
+#cycle input{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;  
+}
+#buses{
+	display: none;
+	width: 100%;
+}
+#buses input{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;  
+}
+
+
+#plus{
+	background-color: #f4fb56;
+	color: tomato;
+	border:0px;
+	border-radius: 50px;
+	height: 30px;
+	width: 30px; 
+	font-size: 18px;
+	margin-left: 30px;
+}
+
+#plus:hover{
+	background-color: white;
+}
+
+#nus{
+	background-color: tomato;
+	color: white;
+	border:0px;
+	border-radius: 50px;
+	height: 30px;
+	width: 30px; 
+	font-size: 18px;
+	margin-left: 10px;
+}
+
+#nus:hover{
+	background-color: red;
+}
+
+#cler{
+	background-color: tomato;
+	color: white;
+	border:0px;
+	border-radius: 50px;
+	height: 30px;
+	width: 30px; 
+	font-size: 9px;
+	margin-left: 10px;
+}
+
+#cler:hover{
+	background-color: red;
+}
+
+
+
+
+
+
+
+
+
